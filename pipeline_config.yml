@@ -1,6 +1,8 @@
 #Project Setup
 general:
   productiveBranch: 'master'
+  jenkinsKubernetes:
+    jnlpAgent: 'docker.wdf.sap.corp:50001/sap-production/jnlp-alpine:3.16.1-sap-01'
 
 #Steps Specific Configuration
 steps:
